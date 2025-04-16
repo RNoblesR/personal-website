@@ -1,0 +1,110 @@
+<!-- 
+Sources:
+- Bootstrap 5.3.3 CSS and JS: https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/
+- Font Awesome 6.5.0: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
+- Custom styles: ../css/style.css
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Self Intro -->
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Hey, I'm Alex Chan<span class="cursor"></span></h1>
+      <p class="mt-3">
+        Year 1 Student at UOW College. <br>
+        Currently studying Creative and Interactive Media Production <br>
+        to make life more interesting.
+      </p>
+    </div>
+    <a href="#achievements" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </div>
+
+  <!-- My Achievements -->
+  <div id="achievements" class="container py-5">
+    <h2 class="section-title text-center mb-5">My Achievements</h2>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-8">
+        <img src="../image/Magazine Cover.png" alt="Magazine Cover" class="img-fluid rounded shadow achievement-img-large">
+      </div>
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <h4 class="achievement-title">Cubism Magazine Cover</h4>
+        <p class="achievement-description">
+          A magazine cover that I made in the first semester. I just started learning Adobe Illustrator at the time when I made this. I was extremely excited when I managed to complete this work and considered this as a huge progress.
+        </p>
+        <div class="mt-3">
+          <a href="#concept" class="btn btn-outline-dark">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Concept Section -->
+  <div id="concept" class="concept-section">
+    <div class="container">
+      <h3 class="section-title text-center mb-5">Concept</h3>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="concept-bg"></div>
+          <p class="concept-caption text-center mt-3">Example of Cubism Portrait</p>
+        </div>
+        <div class="col-md-6">
+          <div class="concept-text">
+            <h4>Design Concept</h4>
+            <p>
+              The concept of Cubism is to depict things as they really are instead of what they look like. Using this concept, I merged together 2 different faces of the same person to show an abstract of the many faces of a person.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#drafts" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </div>
+
+  <!-- Drafts Section -->
+  <div id="drafts" class="container py-5">
+    <h3 class="section-title text-center mb-5">Drafts</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="draft-title text-center mt-3">Draft 1</p>
+        <img src="../image/cubism sketch.png" alt="Draft 1" class="img-fluid rounded shadow draft-img">
+      </div>
+      <div class="col-md-6">
+        <p class="draft-title text-center mt-3">Draft 2</p>
+        <img src="../image/Cubism sketch 2.png" alt="Draft 2" class="img-fluid rounded shadow draft-img">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <div class="draft-text text-center">
+          <p>
+            These are the early draft images I made. They show the thought process and the evolution of details during the design process.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center py-4">
+      <p>&copy; 2023 Alex Chan. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
